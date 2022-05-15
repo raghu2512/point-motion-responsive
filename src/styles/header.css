@@ -1,0 +1,50 @@
+.header {
+    height: 100vh;
+    background: url('../assets/Mask.png') #3734a9;
+    background-attachment: fixed;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 21%;
+    right: 21%;
+    color: white;
+}
+
+.headline h1 {
+    font-size: 3.5rem;
+}
+
+.headline p {
+    max-width: 550px;
+}
+
+.pallet {
+    background: #ff7f5c;
+    border-radius: 35px;
+    color: white;
+    padding: 15px 25px;
+}
+
+span svg {
+    width: 60px;
+    height: 60px;
+    color: #22d497;
+}
+
+@media screen and (max-width: 600px) {
+    .headline h1 {
+        font-size: 2rem;
+    }
+
+    span svg {
+        width: 65px;
+        height: 65px;
+    }
+}

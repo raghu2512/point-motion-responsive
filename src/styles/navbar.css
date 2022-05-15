@@ -1,0 +1,11 @@
+.navbar {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.free {
+    background: #ff7f5c;
+    color: white;
+}

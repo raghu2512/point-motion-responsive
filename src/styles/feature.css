@@ -1,0 +1,57 @@
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-heading h4 {
+    font-size: 18px;
+    color: #3734a9;
+    line-height: 25px;
+}
+
+.feature-heading h1 {
+    font-size: 50px;
+    line-height: 56px;
+}
+
+.feature-heading p {
+    font-size: 15px;
+    color: #757095;
+    line-height: 26px;
+}
+
+.feature-heading button {
+    background: #3734a9;
+    color: white;
+    padding: 15px 25px;
+}
+
+@media screen and (max-width: 1090px) {
+    .featureImage {
+        width: 550px;
+    }
+
+    .c_one {
+        margin-left: 25px;
+    }
+
+    .featureImage2 {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .feature1,
+    .feature2 {
+        flex-direction: column;
+    }
+
+    .featureImage {
+        width: 350px;
+    }
+
+    .featureImage2 {
+        width: 300px;
+    }
+}
